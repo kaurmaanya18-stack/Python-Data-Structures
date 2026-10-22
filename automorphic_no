@@ -1,0 +1,10 @@
+def autom(a):
+    c=str(a)
+    l=len(c)
+    s=a**2
+    if(a==s%(10**l)):
+        print("AUTOMORPHIC NO.")
+    else:
+        print("NOT AUTOMORPHIC NO.")
+n=int(input("Enter a no.:"))
+autom(n)
